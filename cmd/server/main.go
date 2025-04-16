@@ -12,6 +12,7 @@ import (
 
 func main() {
 	// Load env vars
+
 	err := godotenv.Load()
 	if err != nil {
 		log.Printf("Error loading .env file: %v", err)
